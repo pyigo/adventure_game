@@ -60,12 +60,25 @@
                 x: 5,
                 y: 5
             },
-            symbol: "$"
-        }
+            symbol: "$",
+            points: 100
+        },
+        {
+            name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 15,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 18,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 19,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
+            {name: "wall",attributes: [],position: {x: 20,y: 5},symbol: "#",points:100},
     ]
 
     function render(){
-        map.innerHTML=""; //clear the map
+        //map.innerHTML=""; //clear the map
         sprites.forEach(sprite=>{
         div = document.createElement("div");
         div.style.position = "absolute"; 
